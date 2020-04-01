@@ -1,0 +1,35 @@
+commit f4139a82ed232aef4e5a5e76c4572dfe11ae32cb
+Author: lihaeu <lilia.haeussermann@t-online.de>
+Date:   Wed Apr 1 15:30:39 2020 +0200
+
+    added gitignore
+
+commit 2db52693fe7b557c4e6fe64cd9eecf27835a06ab
+Author: lihaeu <lilia.haeussermann@t-online.de>
+Date:   Wed Apr 1 14:59:52 2020 +0200
+
+    new random files
+
+commit 8b93ced65da0fae48d0899b650758707b661c81a
+Author: lihaeu <lilia.haeussermann@t-online.de>
+Date:   Wed Apr 1 14:50:55 2020 +0200
+
+    added new line to nfile
+
+commit 77633958ab99254829d729c000e8eaa32661bb74
+Author: lihaeu <lilia.haeussermann@t-online.de>
+Date:   Wed Apr 1 14:38:31 2020 +0200
+
+    added new file
+
+commit f9f381007e60566966b27a2c3f3d9d2e768fd22a
+Author: lihaeu <lilia.haeussermann@t-online.de>
+Date:   Wed Apr 1 10:55:11 2020 +0200
+
+    added two files
+
+commit 137097fa5390ee571a22e3d8920f33fde79fb3f2
+Author: lihaeu <lilia.haeussermann@t-online.de>
+Date:   Wed Apr 1 10:27:20 2020 +0200
+
+    added readme.txt
