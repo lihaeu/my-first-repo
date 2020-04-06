@@ -1,20 +1,28 @@
-#!/usr/bin/env bash
 
 function guessinggame {
 
- local dir_files=$(ls -l | egrep ^- | wc -l)
+ local dir_files=$(ls -la | egrep ^- | wc -l | egrep -o [0-9]+)
 
  echo How many files are in the current directory?
  read response
 
- while [[ $response -ne $dir_files ]] 
+ while [[ $response != $dir_files ]]
  do
-  if [[ $response -gt $dir_files ]]
+
+  if [[ $response =~ [^0-9] ]]
   then
-   echo "The number was too high. Try again."
-  elif [[ $response -lt $dir_files ]]
+   echo "Plaese enter a positive integer"
+  elif [[ $response =~ ^[0-9]+$ ]]
   then
-   echo "The number was too low. Try again."
+
+   if [[ $response -gt $dir_files ]]
+   then
+    echo "The number was too high. Try again."
+   elif [[ $response -lt $dir_files ]]
+   then
+    echo "The number was too low. Try again."
+   fi
+
   fi
   read response
  done
@@ -26,3 +34,4 @@ function guessinggame {
 }
 
 guessinggame
+
