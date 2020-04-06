@@ -1,21 +1,5 @@
-# lihaeu 
-
-### Geography
-
-I lived in **Germany** for 23 years and then moved to Ioah.
-
-### Reading
-
-My favorite books are:
-
-1. The name of the wind
-2. Quality Land
-3. A boy and his dog at the end of the world
-
-### Activities
-
-I like:
-
-- cooking
-- reading
-- going for a walk
+#The Assignment: Guessing Game
+####The make command was last executed:
+Mon Apr  6 09:35:25 MEST 2020
+####guessinggame.sh contains the following number of lines of code:
+21
